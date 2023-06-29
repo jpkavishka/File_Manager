@@ -1,0 +1,18 @@
+img{
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 100%;
+    height: 745px;
+    background-size: cover;
+}
+.col-4{
+    padding: 25px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+  
+.eye{
+    margin-left: 380px;
+    margin-top: -40px;
+  }

@@ -1,0 +1,27 @@
+.card .example-card {
+    max-width: 1230px;
+    height: 600px;
+    margin: 30px;
+    background-color: rgb(233, 221, 221);
+  } 
+  
+  .ex .example-card {
+    max-width: 400px;
+    margin-top: -588px;
+    left: 50px;
+    
+  }
+  
+.image{
+  width: 200px;
+  margin: 90px;
+}
+button{
+  background-color: rgb(59, 179, 50);
+  color: white;
+}
+p{
+  color: red;
+  font-family: Redressed;
+  font-size: x-large;
+}

@@ -1,0 +1,54 @@
+<div class="bg">
+    <img [src]="loginbg" alt="">
+</div>
+<div class="container-fluid">
+         <div class="col-4">
+            <div class="card shadow">
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3">
+                            <h4 class="text-dark text-center" style="font-weight: bold;font-size: 23px;">LOGIN</h4>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label" style="font-weight: bold;">Email</label>
+                          <input type="email" class="form-control" name="email" [(ngModel)]="email">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label" style="font-weight: bold;">Password</label>
+                          <input type="text" class="form-control" name="password" [(ngModel)]="password" matInput [type]="hide ? 'password' : 'text'">
+                          <div class="eye">
+                            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                                <mat-icon style="font-size: 18px">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                            </button>
+                          </div>
+                
+                        </div>
+                        <div class="button">
+                            <div class="inner"></div>
+                            <button type="button"  value="LogIn" (click)="login()">LOGIN</button>
+                          </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="/signup" style="text-decoration: none;">Need an Account ? <span class="text-danger">SignUp</span></a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="/forget-password" class ="text-danger" style="text-decoration: none;">Forgot Password ?</a>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <a (click)="signInWithGoogle()" style="text-decoration: none;cursor: pointer;">
+                            <!-- <div class="card shadow text-centre"> -->
+                                <div class="card-body text-center" > 
+                                    <img src="../../../assets/Images/google.png" alt="" height="24px" width="24px"> &nbsp; Sign In With Google
+                                </div>
+                            <!-- </div> -->
+                            </a>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        
+    </div>
+</div>

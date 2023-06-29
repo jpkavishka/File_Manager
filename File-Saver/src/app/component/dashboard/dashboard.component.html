@@ -1,0 +1,44 @@
+<mat-sidenav-container class="container-full">
+    <mat-sidenav #sidebar mode="side" opened>
+        <app-sidebar></app-sidebar>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <div class="content">
+            <div class="toolbar">
+                <mat-toolbar color="primary">
+                    <div class="example-button-container">
+                        <button mat-mini-fab color="accent" aria-label="Example icon button with a filter list icon">
+                          <mat-icon (click)="sidebar.toggle()">filter_list</mat-icon>
+                        </button>
+                      </div>
+                      
+                    <div class="box">
+                        <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                            <mat-icon>more_vert</mat-icon>
+                        </button>
+                          <mat-menu #menu="matMenu">
+                            <button mat-menu-item  [routerLink]="['home']">
+                              <mat-icon mat-button color="accent">manage_accounts</mat-icon>
+                              <span>Settings</span>
+                            </button>
+                            <button mat-menu-item (click)="signup()">
+                              <mat-icon mat-button color="accent">logout</mat-icon>
+                              <span>Sign Out</span>
+                            </button>
+                          </mat-menu>
+                    </div>
+                   
+                </mat-toolbar>
+            </div>
+
+            
+            <div class="main">
+                <router-outlet></router-outlet>
+            </div>
+            
+        </div>
+    </mat-sidenav-content>
+
+</mat-sidenav-container>
+
+

@@ -1,0 +1,90 @@
+.card .example-card {
+    max-width: 1230px;
+    height: 600px;
+    margin: 30px;
+    background-color: rgb(233, 221, 221);
+  } 
+
+
+
+  .example-header-image {
+    background-image: url('../../../assets/Images/me.jpg');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .avatar{
+    margin-left: 400px;
+   
+  }
+  h1{
+    font-weight: bold;
+    margin-left: 538px;
+    font-size: xx-large;
+    margin-top: -67px;
+    
+  }
+  p{
+    font-weight: bold;
+    margin-left: 540px;
+    font-size: xx-large;
+    margin-top: -30px;
+  }
+  .info{
+    margin-left: 280px;
+    
+  }
+
+.dot{  
+  margin-left: 190px;
+}
+.roll{
+  margin-left: 10px;
+  
+}
+.dot1{
+  margin-left: 208px;
+}
+.email{
+  margin-left: 10px;
+}
+.dot2{
+  margin-left: 119px;
+}
+.alt{
+  margin-left: 10px;
+}
+.dot3{
+  margin-left: 171px;
+}
+.mob{
+  margin-left: 10px;
+}
+.dot4{
+  margin-left: 194px;
+}
+.gen{
+  margin-left: 10px;
+}
+.dot5{
+  margin-left: 145px;
+}
+.dob{
+  margin-left: 10px;
+}
+.dot6{
+  margin-left: 198px;
+}
+.deg{
+  margin-left: 10px;
+}
+.dot7{
+  margin-left: 125px;
+}
+.yop{
+  margin-left: 10px;
+}
+h3{
+  font-weight: bold;
+}

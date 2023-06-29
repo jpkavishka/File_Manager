@@ -1,0 +1,50 @@
+mat-sidenav{
+    background-color: #0f172a;
+    width: 230px;
+    height: 100%;
+    
+}
+mat-sidenav-content{
+    height: 100vh;
+    left: 0;
+    /* background-color: cadetblue;
+     */
+}
+mat-toolbar mat-icon{
+    margin-left: 15px;
+    color: whitesmoke;
+}
+mat-toolbar{
+    justify-content: space-between;
+    
+}
+.box mat-icon{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white
+    
+}
+.example-button-container mat-icon{
+    margin-left: -1px;
+}
+
+.get{
+    background-color: rgb(253, 98, 165);
+    left: 624px;
+    color: blue;
+    font-weight: bold;
+    font-size: large;
+    bottom: -44px;
+}
+.get p{
+    margin-bottom: 6px;
+}
+mat-card-content p{
+    color: red;
+    font-family: Redressed;
+    font-size: 42px;
+    margin-left: 440px;
+    margin-top: 250px;
+  }
+

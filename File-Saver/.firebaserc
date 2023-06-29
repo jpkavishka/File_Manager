@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "system-file-saver": {
+      "hosting": {
+        "File-Saver": [
+          "system-file-saver"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "system-file-saver"
+  }
+}
